@@ -33,6 +33,7 @@ const copyOptions = [
        // export itself to a global var
        libraryTarget: "var",
        // name of the global var: "babelKit"
+       // TODO pull name from package and prepare to be used as global var
        library: "babelKit",
        path: path.resolve(__dirname, OUT_DIR),
        filename: 'index.js',

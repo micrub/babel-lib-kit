@@ -6,6 +6,7 @@
   "author": "Michael Rubanov <mrubanov@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "dev": "$(npm bin)/webpack-dev-server --content-base dist/",
     "pre-build-prod": "yarn && npm run lint",
     "lint": "$(npm bin)/eslint src test",
     "pre-build-dev": "echo 'pre-build'",
@@ -43,6 +44,7 @@
     "mocha": "^3.4.2",
     "mocha-clean": "^1.0.0",
     "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.6.1",
     "webpack-shell-plugin": "^0.5.0"
   }
 }
