@@ -61,7 +61,7 @@ module.exports = {
         loader: "babel-loader",
         options: {
           //cacheDirectory: true,
-          presets: ["env"],
+          presets: ["env", "react"],
           plugins: [
             require("babel-plugin-transform-runtime"),
             require("babel-plugin-transform-async-to-generator")
